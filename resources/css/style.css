@@ -1,0 +1,238 @@
+.header {
+  display: flex;
+  border-bottom: thin solid black;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  width: auto;
+  align-items: center;
+}
+
+img {
+  display: inline-block;
+}
+
+.logo h3 {
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+span {
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+}
+
+.header a {
+  color: black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+  width: 400px;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+.image-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  width: auto;
+  height: 300px;
+}
+
+.image-content span {
+    padding-left: 15px;
+}
+
+.largecolumn {
+  display: flex;
+  flex-flow: column;
+  width: 630px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.stories {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.story {
+  display: flex;
+  flex-flow: column;
+  font-family: Georgia;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.text-content h2 {
+  margin-top: 0;
+}
+
+.news-text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.story2-image-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  background-size: auto;
+  width: auto;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.story2-image-content span {
+  padding: 5px;
+}
+
+.story3-image-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  background-size: cover;
+  width: auto;
+  height: 300px;
+}
+
+.story3-image-content span {
+  padding: 5px;
+}
+
+.mediumcolumn {
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.cat-image-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  width: auto;
+  height: 300px;
+}
+
+.cat-image-content span {
+  padding: 5px;
+}
+
+.smallcolumn {
+  display: flex;
+  flex-flow: column; 
+  width: 240px;
+  padding: 10px;
+}
+
+.newsbites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  height: 30px;
+}
+
+.footerinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 300px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.title {
+  border: 1px solid red;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footerinfo a {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: black;
+  font-family: Verdana;
+  font-size: 12px;
+  margin: auto;
+
+}
+
+.copyright span {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  color: black;
+  font-family: Verdana;
+  font-size: 12px;
+  margin: auto;
+
+}
